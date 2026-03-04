@@ -1,0 +1,16 @@
+{
+  "name": "ci-demo-app",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules node --no-warnings node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
