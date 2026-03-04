@@ -6,7 +6,7 @@ beforeEach(() => {
 })
 
 test("register success", () => {
-    const user = register("test@email.com", "password")
+    const user = register("test@email", "password")
     expect(user.email).toBe("test@email.com")
 })
 
